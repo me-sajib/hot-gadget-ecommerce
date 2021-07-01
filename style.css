@@ -1,0 +1,26 @@
+.carousel-indicators .active {
+    background-color: rgb(255, 208, 25)!important;
+    padding:0px 10px;
+    width: 50px;
+    height: 30px;
+    border-radius: 45%;
+  }
+  .carousel-indicators button {
+    background-color: #999 !important;
+    background-color: rgba(70,70,70,.25) !important;
+
+  }
+  .carousel-indicators [data-bs-target]{
+      width: 20px;
+      height: 10px;
+      border-radius: 50%;
+  }
+#carousel{
+    background: url("images/bg-2.png") no-repeat left;
+}
+.carousel-inner h1{
+    margin-bottom: 22px;
+}
+.carousel-inner p{
+    line-height: 32px;
+}
